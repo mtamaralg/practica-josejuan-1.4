@@ -70,3 +70,17 @@ a2ensite default-ssl.conf
 
 # 6. Reiniciamos Apache para aplicar los cambios
 systemctl restart apache2
+
+
+```
+IMAGENES
+sudo ./install_lamp.sh
+<img width="1399" height="376" alt="Primera cap 1 4" src="https://github.com/user-attachments/assets/35c23c40-c9a1-4a6d-89e7-83e3e89eff88" />
+
+sudo ./generar_certificado.sh
+<img width="1406" height="371" alt="Segunda cap 1 4" src="https://github.com/user-attachments/assets/7ffe0c5d-e559-4f9a-bbb6-d34bc0f0cdfe" />
+
+Escribimos en el navegador https://3.212.243.22 pulsamos "no es seguro" arriba a la izquierda, detalles del certificado: 
+<img width="1911" height="1018" alt="Tercera cap 1 4" src="https://github.com/user-attachments/assets/b0d6c014-ab07-4f8b-a763-dc07831a9e2e" />
+
+
